@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Activity;
 use App\Models\Book;
 use App\Models\History;
 use Illuminate\Http\Request;
@@ -12,9 +13,10 @@ class homeController extends Controller
 {
     public function index()
     {
+        $activities = Activity::all();
         $details = History::all();
         foreach ($details as $detail) {
-            return view('frontend.index', compact('detail'));
+            return view('frontend.index', compact('detail','activities'));
         }
     }
 

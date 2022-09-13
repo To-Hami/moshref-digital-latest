@@ -163,106 +163,24 @@
                 </p>
                 <h1 class="mb-4">معرض نشاطات الطلاب </h1>
             </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-outline-primary m-1 active" data-filter="*">
-                            الكل
-                        </li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".first">
-                            قراءة
-                        </li>
-                        <li class="btn btn-outline-primary m-1" data-filter=".second">
-                            ابتكار
-                        </li>
-                        <li class="btn btn-outline-primary m-1 " data-filter=".third">
-                            مرح
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio-container" style="position: relative; height: 294.484px;">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first"
-                     style="position: absolute; left: 0px; top: 0px;">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/read1.jpg')}}" style="height: 100%;    height: 200px !important;
-" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/read1.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+            <div class="col-md-12 row  program_images">
+                @foreach( $activities as $activity )
+                    @if($activity->images)
+                        <div class="col-md-4">
+                            <a href="{{asset('Attachments/activities/'.$activity->images)}}">
+                                <img style="width: 400px;height: 400px"  class="img-fluid my-2 img-thumbnail"
+                                     src="{{asset('Attachments/activities/'.$activity->images)}}">
                             </a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second"
-                     style="position: absolute; left: 0px; top: 0px; ">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/ebtecar1.jpg')}}"
-                             style="width: 100%;    height: 200px !important;" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/ebtecar1.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third"
-                     style="position: absolute; left: 0px; top: 0px;">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/fun1.jpg')}}"
-                             style="height: 200px !important;" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/fun1.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first"
-                     style="position: absolute; left: 379px; top: 0px; ">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/read2.jpg')}}"
-                             style="width: 100%; height: 100%" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/read2.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second"
-                     style="position: absolute; left: 379px; top: 0px;">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/ebtecar2.jpg')}}" style="width: 100%;    height: 200px !important;
- ; height: 100%" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/ebtecar2.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third"
-                     style="position: absolute; right: 379px; top: 0px;">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid w-100" src="{{asset('assets/frontend/img/fun2.jpg')}}"
-                             style="height: 200px !important;" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="{{asset('assets/frontend/img/fun2.jpg')}}" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                    @endif
+                @endforeach
             </div>
         </div>
     </div>
 
-
-
     <!-- Footer Start -->
     <div
-        class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        class=" col-md-12 container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
 
 
         <p class="m-0 text-center text-white">

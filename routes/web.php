@@ -172,7 +172,7 @@ Route::group([ 'middleware' =>'auth'],function(){
 
     //================================== activities  ====================================//
     Route::group(['namespace' => 'Activities'], function () {
-        Route::get('activities/delete', 'activitiesController@delete')->name('activities.delete');
+        Route::get('activities/delete/', 'activitiesController@delete')->name('activities.delete');
         Route::resource('activities', 'activitiesController');
     });
 

@@ -7,13 +7,13 @@ use App\Models\Activity;
 use App\Models\History;
 use App\Models\ProgramImage;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class ActivitiesController extends Controller
 {
     public function index()
     {
         $activities = Activity::all();
-
 
         $histories = History::all();
         foreach ($histories as $history) {
@@ -50,6 +50,20 @@ class ActivitiesController extends Controller
 
     public function delete()
     {
-        dd('delete');
+
+        $ctivities = Activity::all();
+        if ($ctivities->count() > 0) {
+            File::deleteDirectory(public_path('Attachments/activities'));
+
+            foreach ($ctivities as $ctivity) {
+                $ctivity->delete();
+            }
+        }
+
+
+        toastr()->success(trans('messages.success'));
+        return redirect()->route('activities.index');
     }
+
+
 }

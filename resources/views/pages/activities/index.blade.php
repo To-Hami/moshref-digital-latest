@@ -24,7 +24,7 @@
                            aria-pressed="true">اضافة صور جديدة </a>
 
                         <a href="{{route('activities.delete')}}" class="btn btn-danger btn-lg float-right" role="button"
-                           aria-pressed="true"> حزف الصور </a><br><br>
+                           aria-pressed="true"><i class=" fa fa-trash"></i>  حذف الصور </a><br><br>
 
 
                     </div>

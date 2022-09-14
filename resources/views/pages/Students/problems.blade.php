@@ -157,7 +157,7 @@
 
                                                     <button type="submit" class="btn btn-danger btn-md"
                                                             style="float: left;margin-left: 30px;">
-                                                       حزف
+                                                       حذف <i class="fa fa-trash"></i>
                                                     </button>
 
 

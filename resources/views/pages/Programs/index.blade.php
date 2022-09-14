@@ -106,7 +106,7 @@
                                                         <div class="modal-header">
                                                             <h5 style="font-family: 'Cairo', sans-serif;"
                                                                 class="modal-title" id="exampleModalLabel">هل انت متأكد
-                                                                من رغبتك بالحزف ؟ </h5>
+                                                                من رغبتك بالحذف ؟ </h5>
                                                             <button type="button" class="close" data-dismiss="modal"
                                                                     aria-label="Close">
                                                                 <span aria-hidden="true">&times;</span>

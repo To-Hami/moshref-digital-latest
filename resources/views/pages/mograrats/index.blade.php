@@ -22,7 +22,7 @@
             <button class="btn btn-success btn-lg mb-3" style="border-radius: 8px"><a href="{{route('mograrats.create')}}"> <i class="fa fa-plus"></i> اضافة طالب جديد</a> </button>
             <button class="btn btn-success btn-lg mb-3" style="border-radius: 8px"><a href="{{route('mograrats.createExcel')}}"> <i class="fa fa-file-pdf-o"></i> اضافة ملف اكسيل</a> </button>
             <button class="btn btn-danger btn-lg mb-3"><a href="{{route('mograrats.trash')}}">
-                    <i class="fa fa-trash"></i>   حزف الملف</a>
+                    <i class="fa fa-trash"></i>   حذف الملف</a>
             </button>
         </div>
             @endif

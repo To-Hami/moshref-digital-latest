@@ -22,7 +22,6 @@ class Problems_table_seeder extends Seeder
                 ' صحية',
                 ' أسرية ',
                 ' نفسية',
-                ' صحية',
                 'تعويض درجات السلوك والمواظبة'
 
             ];

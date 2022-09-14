@@ -103,17 +103,17 @@
                             <h5 class="btn btn-info my-2 d-block"><a href="https://soltan.school-digtal.com" target="_blank"> المدرسة الرقمية - سلطان بن شبيب المقاطي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://mansor.school-digtal.com" target="_blank"> المدرسة الرقمية - منصور دخيل الله الغنامي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://fahad.school-digtal.com" target="_blank"> المدرسة الرقمية - فهد عايض عيد العتيبي</a> </h5>
-                            <h5 class="btn btn-info my-2 d-block"><a href="https://mayod.school-digtal.com" target="_blank"> المدرسة الرقمية - عبد الله ميعوض العصيمي</a> </h5>
+                            <h5 class="btn btn-info my-2 d-block"><a href="http://mayod.school-digtal.com" target="_blank"> المدرسة الرقمية - عبد الله ميعوض العصيمي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block" ><a href="https://husean.school-digtal.com" target="_blank"> المدرسة الرقمية - حسين غليان المقاطي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://abeed.school-digtal.com" target="_blank"> المدرسة الرقمية - عبيد عتيق العصيمي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://soltannor.school-digtal.com" target="_blank"> المدرسة الرقمية - سلطان نور الذيابي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://bander.school-digtal.com" target="_blank"> المدرسة الرقمية - بندر عجاب العتيبي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://aazy.school-digtal.com" target="_blank"> المدرسة الرقمية - غازي علي العتيبي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://saad.school-digtal.com" target="_blank"> المدرسة الرقمية - سعد زامل العتيبي</a> </h5>
-                            <h5 class="btn btn-info my-2 d-block"><a href="https://alisnaan.school-digtal.com" target="_blank"> المدرسة الرقمية - علي سنان الروقي</a> </h5>
+                            <h5 class="btn btn-info my-2 d-block"><a href="http://alisnaan.school-digtal.com" target="_blank"> المدرسة الرقمية - علي سنان الروقي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://bader.school-digtal.com" target="_blank"> المدرسة الرقمية - بدر سعد العصيمي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://hany.school-digtal.com" target="_blank"> المدرسة الرقمية - هاني دخيل الله الثبيتي</a> </h5>
-                            <h5 class="btn btn-info my-2 d-block"><a href="https://soltan.school-digtal.com" target="_blank"> المدرسة الرقمية - سلطان عبد الرحمن الوقداني</a> </h5>
+                            <h5 class="btn btn-info my-2 d-block"><a href="https://soltanabdalrahman.school-digtal.com" target="_blank"> المدرسة الرقمية - سلطان عبد الرحمن الوقداني</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://mmofreh.school-digtal.com" target="_blank"> المدرسة الرقمية - محمد مفرح العتيبي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://mmotlag.school-digtal.com" target="_blank"> المدرسة الرقمية - محمد مطلق القثامي</a> </h5>
                             <h5 class="btn btn-info my-2 d-block"><a href="https://faysel.school-digtal.com" target="_blank"> المدرسة الرقمية - فيصل طلال العصيمي</a> </h5>
